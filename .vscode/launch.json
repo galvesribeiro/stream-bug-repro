@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Silo",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/TestSilo/bin/Debug/net6.0/TestSilo.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/TestSilo",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Client",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/TestClient/bin/Debug/net6.0/TestClient.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/TestClient",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+    ]
+}
